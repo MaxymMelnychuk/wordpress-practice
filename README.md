@@ -30,12 +30,6 @@
 - `add_filter('the_content', …)` → pour injecter un bouton dans le contenu.  
 - Fonction `astra_child_footer()` → pour afficher le footer personnalisé.
 
-## Captures d’écran
-
-### Avant
-1. ![Avant - Accueil](captures/avant-accueil.png)  
-2. ![Avant - Footer](captures/avant-footer.png)  
-3. ![Avant - Section Why](captures/avant-why.png)  
 
 ### Après
 1. ![Après - Accueil](captures/apres-accueil.png)  
