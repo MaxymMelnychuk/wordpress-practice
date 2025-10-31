@@ -1,0 +1,80 @@
+/*
+Theme Name: Astra Child
+Template: astra
+Version: 1.0.0
+Text Domain: astra-child
+Author : Maxym
+Description: Thème enfant basé sur Astra (footer personnalisé).
+*/
+
+.site-footer{
+  background:#0e0f12;
+  color:#d6d8dc;
+  padding:48px 20px 24px;
+}
+.site-footer a{ color:#e6e8ec; text-decoration:none; }
+.site-footer a:hover{ color:#9ad0ff; text-decoration:underline; }
+.footer-inner{
+  max-width:1200px;
+  margin:0 auto;
+  display:grid;
+  grid-template-columns:repeat(3, minmax(0,1fr));
+  gap:32px;
+}
+.footer-col h4{ margin:0 0 12px; font-size:1.05rem; color:#ffffff; }
+.footer-col p{ margin:0; line-height:1.6; }
+.footer-col ul{ list-style:none; padding:0; margin:0; }
+.footer-col ul li{ margin:6px 0; }
+.copy{
+  max-width:1200px;
+  margin:16px auto 0;
+  text-align:center;
+  opacity:.7;
+  font-size:.95rem;
+}
+
+@media (max-width: 800px){
+  .footer-inner{ grid-template-columns: 1fr; }
+}
+
+
+section[id*="why" i],
+section[class*="why" i]{
+  scroll-margin-top: 80px;
+  padding-block: clamp(40px, 6vw, 80px);
+}
+section[id*="why" i] .grid,
+section[class*="why" i] .grid{
+  display:grid;
+  gap:24px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+section[id*="why" i] h2,
+section[class*="why" i] h2{ margin-bottom: 16px; }
+
+.custom-btn-wrapper {
+   
+    margin-top: 20px;
+}
+
+.custom-btn {
+    display: inline-block;
+    background-color: #ffcd03; 
+    color: #fff;
+    padding: 12px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.custom-btn:hover {
+    background-color: #debd00; 
+    transform: translateY(-2px);
+}
+
+.custom-btn {
+    text-decoration: none !important;
+    color: rgb(0, 0, 0) !important;
+}
