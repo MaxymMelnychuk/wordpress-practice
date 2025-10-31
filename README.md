@@ -31,8 +31,3 @@
 - Fonction `astra_child_footer()` → pour afficher le footer personnalisé.
 
 
-### Après
-1. ![Après - Accueil](captures/apres-accueil.png)  
-2. ![Après - Footer](captures/apres-footer.png)  
-3. ![Après - Section Why](captures/apres-why.png)  
-
